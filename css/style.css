@@ -121,6 +121,7 @@ Version: 2.0.0
   src: url("../fonts/material-icons/material-icons-outlined.woff2") format("woff2");
 }
 
+
 /* 1.2 Base */
 * {
     box-sizing: border-box;
@@ -3492,4 +3493,28 @@ body.mmm-open .mmm {
     .bff-container p {
         margin: 0;
     }
+}
+
+.ventana
+{
+    background-color: grey;
+    width: 30%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius:22px ;
+    position: absolute;
+    display: none;
+
+
+}
+
+#cerrar{
+    position: absolute;
+    right: 9px;
+    top: 4px;
+
 }
